@@ -1,0 +1,372 @@
+.container{
+  width: 70%;
+  margin: auto;
+  @media screen and (max-width: 400px){
+    width: 95%;
+  }
+}
+header{
+  width: 100%;
+  height: 60px;
+  background-color: $color1;
+  @media screen and (max-width: 400px){
+    height: 40px;
+  }
+  .izq{
+    @include inblock;
+    width: 60px;
+    height: 60px;
+    float: left;
+    @media screen and (max-width: 400px){
+      width: 30px;
+      height: 30px;
+    }
+    img{
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+    }
+  }
+  h1{
+    margin-left: 20%;
+    font-family: $title;
+    font-size: 30px;
+    @include inblock;
+    color: $color2;
+    text-decoration:underline;
+    margin-top: 10px;
+    @media screen and (max-width: 400px){
+      float: right;
+      width: 220px;
+      font-size: 25px;
+    }
+  }
+  .der{
+    @include inblock;
+    float: right;
+    @media screen and (max-width: 400px){
+      display: none;
+    }
+    a{
+      @include inblock;
+      color: white;
+      font-size: 15px;
+      margin-left: 5px;
+      margin-top: 15px;
+      font-family: $text1;
+        &:hover{
+          color: $color6;
+        }
+    }
+  }
+}
+.section1{
+  width: 100%;
+  height: 400px;
+  background: $color2;
+    .fondo1{
+      border: 1px solid black;
+      width: 100%;
+      height: 300px;
+      background-image: url("imagen/fondo.jpg");
+      background-position: center;
+      background-size: cover;
+      .img1{
+        width: 150px;
+        height: 150px;
+        margin: auto;
+        margin-top: 30px;
+        border: 3px solid white;
+        img{
+          width: 100%;
+          height: 100%;
+          transition: 1.3s ease-in-out;
+          &:hover{
+            -webkit-transform: scale(1.35);
+            transform: scale(1.35)
+}
+        }
+      }
+    }
+    .marco{
+      width: 400px;
+      height: 50px;
+      background: $color1;
+      margin: auto;
+      border-radius: 4px;
+      @media screen and (max-width: 400px){
+        width: 250px;
+      }
+    h1{
+      color: $color6;
+      font-family: $text1;
+      font-size: 40px;
+      text-align: center;
+      margin-top: -60px;
+      box-sizing: border-box;
+      padding-top: 5px;
+      @media screen and (max-width: 400px){
+        font-size: 25px;
+      }
+    }
+  }
+    h2{
+      margin-top: 30px;
+      color: black;
+      font-family: $text1;
+      font-size: 30px;
+      text-align: center;
+      @media screen and (max-width: 400px){
+        font-size: 20px;
+      }
+    }
+}
+#history{
+  width: 100%;
+  height: 300px;
+  background: $color3;
+  text-align: center;
+  @media screen and (max-width: 400px){
+    height: 370px;
+  }
+  h1{
+    box-sizing: border-box;
+    padding-top: 20px;
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  .uno{
+    @include inblock;
+    width: 30%;
+    height: 4px;
+    background: $color6;
+    vertical-align: middle;
+  }
+  span{
+    font-size: 25px;
+    margin: 20px;
+    color: $color6;
+  }
+  .text2{
+    margin-top: 30px;
+    width: 50%;
+    margin-left: 25%;
+    height: 70px;
+    background: $color7;
+    border-radius: 5px;
+    @media screen and (max-width: 400px){
+      height: 195px;
+    }
+    p{
+      font-size: 15px;
+      font-family: $text1;
+
+      box-sizing: border-box;
+      padding-top: 5px;
+    }
+  }
+}
+#home{
+  width: 100%;
+  height: 350px;
+  background-color: $color8;
+  text-align: center;
+  @include title2;
+  h2{
+    box-sizing: border-box;
+    padding-top: 20px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    @media screen and (max-width: 400px){
+      font-size: 16px;
+      width: 300px;
+    }
+  }
+  a{
+    img{
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+    }
+  }
+}
+#picture{
+  width: 100%;
+  height: 1350px;
+  background-color: $color1;
+  text-align: center;
+  @include title2;
+  @media screen and (max-width: 400px){
+    height: 1530px;
+  }
+  .mover{
+    margin-top: 35px;;
+    .img2{
+      width: 100%;
+      height: 300px;
+      @media screen and (max-width: 400px){
+        height: 360px;
+      }
+      img{
+        width: 48%;
+        height: 90%;
+        border: 3px solid $color6;
+        @include inblock;
+        @media screen and (max-width: 400px){
+          width: 60%;
+          height: 40%;
+          display: block;
+          margin: auto;
+          margin-bottom: 10px;
+        }
+        &:hover{
+          border: 3px solid black;
+        }
+      }
+    }
+  }
+}
+#contact{
+  width: 100%;
+  height: 300px;
+  background-color: $color9;
+  text-align: center;
+  @include title2;
+  .text3{
+    width: 50%;
+    height: 50px;
+    margin-top: 20px;
+    @include inblock;
+    @media screen and (max-width: 400px){
+      display: block;
+      width: 100%;
+      text-align: center;
+      height: 40px;
+    }
+    h2{
+      font-size: 20px;
+      text-align: left;
+      @include inblock;
+    }
+  }
+  .icons{
+    width: 46%;
+    height: 50px;
+    margin-top: 20px;
+    @include inblock;
+    @media screen and (max-width: 400px){
+      width: 100%;
+      display: block;
+    }
+    img{
+      margin: 0 10px;
+      width: 60px;
+      height: 60px;
+      @include inblock;
+    }
+  }
+}
+.section6{
+  width: 100%;
+  height: 100px;
+  background: $color4;
+  .foot{
+    padding-top: 3%;
+    box-sizing: border-box;
+    text-align: center;
+    @include inblock;
+    p{
+      color: white;
+      font-size: 20px;
+      @media screen and (max-width: 700px){
+        font-size: 15px;
+      }
+    }
+    a{
+      font-size: 25px;
+      color: $color6;
+      text-decoration: none;
+      vertical-align: top;
+      @media screen and (max-width: 700px){
+        font-size: 20px;
+      }
+    }
+  }
+  .circul{
+  width: 50px;
+  height: 50px;
+  border: 3px solid white;
+  float: right;
+  border-radius: 50%;
+  position: relative;
+  margin-top: 20px;
+  @media screen and (max-width: 400px){
+    float: none;
+    width: 30px;
+    height: 30px;
+    margin-left: 40%;
+    margin-top: 10px;
+  }
+  @include inblock;
+  &:hover{
+    border: 3px solid $color6;
+    span{
+          color: $color6;
+    }
+  }
+    span{
+      position: absolute;
+      font-size: 40px;
+      color: white;
+      margin-top: 10%;
+      margin-left: 20%;
+      @media screen and (max-width: 400px){
+        font-size: 30px;
+        margin-left: 15%;
+        margin-top: 8%;
+      }
+
+    }
+  }
+}
+footer{
+  width: 100%;
+height: 30px;
+background: $color5;
+@media screen and (max-width: 400px){
+  height: 40px;
+}
+.divizq{
+  color: white;
+  font-size: 13px;
+  margin-top: 4px;
+  display: inline-block;
+  @media screen and (max-width: 400px){
+    display: block;
+    font-size: 10px;
+    text-align: center;
+    margin-top: 0;
+  }
+}
+.divder{
+  color: white;
+  font-size: 13px;
+  display: inline-block;
+  margin-top: 4px;
+  float: right;
+  @media screen and (max-width: 400px){
+    font-size: 12px;
+    display: block;
+    float: none;
+    text-align: center;
+  }
+  a{
+    display: inline-block;
+    margin-left: 6px;
+    color: white;
+      &:hover{
+        color: $color6;
+      }
+  }
+}
+}

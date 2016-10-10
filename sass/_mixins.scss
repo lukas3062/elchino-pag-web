@@ -1,0 +1,23 @@
+@mixin inblock {
+  display: inline-block;
+}
+@mixin title2 {
+  h1{
+    box-sizing: border-box;
+    padding-top: 20px;
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+  .uno{
+    @include inblock;
+    width: 30%;
+    height: 4px;
+    background: $color6;
+    vertical-align: middle;
+  }
+  span{
+    font-size: 25px;
+    margin: 20px;
+    color: $color6;
+  }
+}

@@ -1,0 +1,425 @@
+@import url(https://fonts.googleapis.com/css?family=Shadows+Into+Light);
+@import url(https://fonts.googleapis.com/css?family=Droid+Sans:700);
+@import url(http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css);
+.container {
+  width: 70%;
+  margin: auto; }
+  @media screen and (max-width: 400px) {
+    .container {
+      width: 95%; } }
+
+header {
+  width: 100%;
+  height: 60px;
+  background-color: #607D8B; }
+  @media screen and (max-width: 400px) {
+    header {
+      height: 40px; } }
+  header .izq {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    float: left; }
+    @media screen and (max-width: 400px) {
+      header .izq {
+        width: 30px;
+        height: 30px; } }
+    header .izq img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%; }
+  header h1 {
+    margin-left: 20%;
+    font-family: "Shadows Into Light", cursive;
+    font-size: 30px;
+    display: inline-block;
+    color: #ECEFF1;
+    text-decoration: underline;
+    margin-top: 10px; }
+    @media screen and (max-width: 400px) {
+      header h1 {
+        float: right;
+        width: 220px;
+        font-size: 25px; } }
+  header .der {
+    display: inline-block;
+    float: right; }
+    @media screen and (max-width: 400px) {
+      header .der {
+        display: none; } }
+    header .der a {
+      display: inline-block;
+      color: white;
+      font-size: 15px;
+      margin-left: 5px;
+      margin-top: 15px;
+      font-family: "Droid Sans", sans-serif; }
+      header .der a:hover {
+        color: #F4511E; }
+
+.section1 {
+  width: 100%;
+  height: 400px;
+  background: #ECEFF1; }
+  .section1 .fondo1 {
+    border: 1px solid black;
+    width: 100%;
+    height: 300px;
+    background-image: url("imagen/fondo.jpg");
+    background-position: center;
+    background-size: cover; }
+    .section1 .fondo1 .img1 {
+      width: 150px;
+      height: 150px;
+      margin: auto;
+      margin-top: 30px;
+      border: 3px solid white; }
+      .section1 .fondo1 .img1 img {
+        width: 100%;
+        height: 100%;
+        transition: 1.3s ease-in-out; }
+        .section1 .fondo1 .img1 img:hover {
+          -webkit-transform: scale(1.35);
+          transform: scale(1.35); }
+  .section1 .marco {
+    width: 400px;
+    height: 50px;
+    background: #607D8B;
+    margin: auto;
+    border-radius: 4px; }
+    @media screen and (max-width: 400px) {
+      .section1 .marco {
+        width: 250px; } }
+    .section1 .marco h1 {
+      color: #F4511E;
+      font-family: "Droid Sans", sans-serif;
+      font-size: 40px;
+      text-align: center;
+      margin-top: -60px;
+      box-sizing: border-box;
+      padding-top: 5px; }
+      @media screen and (max-width: 400px) {
+        .section1 .marco h1 {
+          font-size: 25px; } }
+  .section1 h2 {
+    margin-top: 30px;
+    color: black;
+    font-family: "Droid Sans", sans-serif;
+    font-size: 30px;
+    text-align: center; }
+    @media screen and (max-width: 400px) {
+      .section1 h2 {
+        font-size: 20px; } }
+
+#history {
+  width: 100%;
+  height: 300px;
+  background: #B0BEC5;
+  text-align: center; }
+  @media screen and (max-width: 400px) {
+    #history {
+      height: 370px; } }
+  #history h1 {
+    box-sizing: border-box;
+    padding-top: 20px;
+    font-size: 40px;
+    margin-bottom: 10px; }
+  #history .uno {
+    display: inline-block;
+    width: 30%;
+    height: 4px;
+    background: #F4511E;
+    vertical-align: middle; }
+  #history span {
+    font-size: 25px;
+    margin: 20px;
+    color: #F4511E; }
+  #history .text2 {
+    margin-top: 30px;
+    width: 50%;
+    margin-left: 25%;
+    height: 70px;
+    background: #5d747f;
+    border-radius: 5px; }
+    @media screen and (max-width: 400px) {
+      #history .text2 {
+        height: 195px; } }
+    #history .text2 p {
+      font-size: 15px;
+      font-family: "Droid Sans", sans-serif;
+      box-sizing: border-box;
+      padding-top: 5px; }
+
+#home {
+  width: 100%;
+  height: 350px;
+  background-color: #78909C;
+  text-align: center; }
+  #home h1 {
+    box-sizing: border-box;
+    padding-top: 20px;
+    font-size: 40px;
+    margin-bottom: 10px; }
+  #home .uno {
+    display: inline-block;
+    width: 30%;
+    height: 4px;
+    background: #F4511E;
+    vertical-align: middle; }
+  #home span {
+    font-size: 25px;
+    margin: 20px;
+    color: #F4511E; }
+  #home h2 {
+    box-sizing: border-box;
+    padding-top: 20px;
+    font-size: 22px;
+    margin-bottom: 25px; }
+    @media screen and (max-width: 400px) {
+      #home h2 {
+        font-size: 16px;
+        width: 300px; } }
+  #home a img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; }
+
+#picture {
+  width: 100%;
+  height: 1350px;
+  background-color: #607D8B;
+  text-align: center; }
+  #picture h1 {
+    box-sizing: border-box;
+    padding-top: 20px;
+    font-size: 40px;
+    margin-bottom: 10px; }
+  #picture .uno {
+    display: inline-block;
+    width: 30%;
+    height: 4px;
+    background: #F4511E;
+    vertical-align: middle; }
+  #picture span {
+    font-size: 25px;
+    margin: 20px;
+    color: #F4511E; }
+  @media screen and (max-width: 400px) {
+    #picture {
+      height: 1530px; } }
+  #picture .mover {
+    margin-top: 35px; }
+    #picture .mover .img2 {
+      width: 100%;
+      height: 300px; }
+      @media screen and (max-width: 400px) {
+        #picture .mover .img2 {
+          height: 360px; } }
+      #picture .mover .img2 img {
+        width: 48%;
+        height: 90%;
+        border: 3px solid #F4511E;
+        display: inline-block; }
+        @media screen and (max-width: 400px) {
+          #picture .mover .img2 img {
+            width: 60%;
+            height: 40%;
+            display: block;
+            margin: auto;
+            margin-bottom: 10px; } }
+        #picture .mover .img2 img:hover {
+          border: 3px solid black; }
+
+#contact {
+  width: 100%;
+  height: 300px;
+  background-color: #546E7A;
+  text-align: center; }
+  #contact h1 {
+    box-sizing: border-box;
+    padding-top: 20px;
+    font-size: 40px;
+    margin-bottom: 10px; }
+  #contact .uno {
+    display: inline-block;
+    width: 30%;
+    height: 4px;
+    background: #F4511E;
+    vertical-align: middle; }
+  #contact span {
+    font-size: 25px;
+    margin: 20px;
+    color: #F4511E; }
+  #contact .text3 {
+    width: 50%;
+    height: 50px;
+    margin-top: 20px;
+    display: inline-block; }
+    @media screen and (max-width: 400px) {
+      #contact .text3 {
+        display: block;
+        width: 100%;
+        text-align: center;
+        height: 40px; } }
+    #contact .text3 h2 {
+      font-size: 20px;
+      text-align: left;
+      display: inline-block; }
+  #contact .icons {
+    width: 46%;
+    height: 50px;
+    margin-top: 20px;
+    display: inline-block; }
+    @media screen and (max-width: 400px) {
+      #contact .icons {
+        width: 100%;
+        display: block; } }
+    #contact .icons img {
+      margin: 0 10px;
+      width: 60px;
+      height: 60px;
+      display: inline-block; }
+
+.section6 {
+  width: 100%;
+  height: 100px;
+  background: #37474F; }
+  .section6 .foot {
+    padding-top: 3%;
+    box-sizing: border-box;
+    text-align: center;
+    display: inline-block; }
+    .section6 .foot p {
+      color: white;
+      font-size: 20px; }
+      @media screen and (max-width: 700px) {
+        .section6 .foot p {
+          font-size: 15px; } }
+    .section6 .foot a {
+      font-size: 25px;
+      color: #F4511E;
+      text-decoration: none;
+      vertical-align: top; }
+      @media screen and (max-width: 700px) {
+        .section6 .foot a {
+          font-size: 20px; } }
+  .section6 .circul {
+    width: 50px;
+    height: 50px;
+    border: 3px solid white;
+    float: right;
+    border-radius: 50%;
+    position: relative;
+    margin-top: 20px;
+    display: inline-block; }
+    @media screen and (max-width: 400px) {
+      .section6 .circul {
+        float: none;
+        width: 30px;
+        height: 30px;
+        margin-left: 40%;
+        margin-top: 10px; } }
+    .section6 .circul:hover {
+      border: 3px solid #F4511E; }
+      .section6 .circul:hover span {
+        color: #F4511E; }
+    .section6 .circul span {
+      position: absolute;
+      font-size: 40px;
+      color: white;
+      margin-top: 10%;
+      margin-left: 20%; }
+      @media screen and (max-width: 400px) {
+        .section6 .circul span {
+          font-size: 30px;
+          margin-left: 15%;
+          margin-top: 8%; } }
+
+footer {
+  width: 100%;
+  height: 30px;
+  background: #263238; }
+  @media screen and (max-width: 400px) {
+    footer {
+      height: 40px; } }
+  footer .divizq {
+    color: white;
+    font-size: 13px;
+    margin-top: 4px;
+    display: inline-block; }
+    @media screen and (max-width: 400px) {
+      footer .divizq {
+        display: block;
+        font-size: 10px;
+        text-align: center;
+        margin-top: 0; } }
+  footer .divder {
+    color: white;
+    font-size: 13px;
+    display: inline-block;
+    margin-top: 4px;
+    float: right; }
+    @media screen and (max-width: 400px) {
+      footer .divder {
+        font-size: 12px;
+        display: block;
+        float: none;
+        text-align: center; } }
+    footer .divder a {
+      display: inline-block;
+      margin-left: 6px;
+      color: white; }
+      footer .divder a:hover {
+        color: #F4511E; }
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: top; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+a {
+  text-decoration: none; }
+
+/*# sourceMappingURL=style.css.map */
